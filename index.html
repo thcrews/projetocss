@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Vindo!</title>
+</head>
+
+<body>
+    <div class="alt"></div>
+    <header class="cabecalho">
+        <div>
+            <h1 class="cabecalho-texto-titulo">Seja Bem Vindo!</h1>
+            <h2 class="cabecalho-texto-subtitulo">Entre para continuar</h2>
+        </div>
+        <img class="cabecalho-image" src="Login Image.svg">
+    </header>
+    <main>
+
+        <form class="formulario" name="loguin" method="POST" action="localhost/cadastro"></form>
+        <p class="formulario-texto">Usuário</p>
+        <input class="formulario-campo" type="text" name="usuario" id="user">
+        <p class="formulario-texto">Senha</p>
+        <input class="formulario-campo" type="text" name="senha" id="pass">
+
+        <div class="formulario-texto">
+            <input class="formulario-texto-check" type="checkbox" name="Recuperar" id="recovery">
+            Lembrar
+        </div>
+
+        </form>
+        <div class="alinhar">
+            <a class="botao" href="#">Logar</a> <!-- Esqueci que era pra ser submit, fazer troca dps -->
+        </div>
+        <a class="link" href="#"><img src="Lock.svg"> Esqueceu sua senha?</a>
+
+
+
+    </main>
+
+    <footer>
+        <p class="footer">Não tem uma conta? <a href="#">Cadastre-se agora</a>
+        <p class="footer">© 2022 Ciado e desenhado por ThDev</p>
+
+    </footer>
+</div>
+</body>
+
+</html>
